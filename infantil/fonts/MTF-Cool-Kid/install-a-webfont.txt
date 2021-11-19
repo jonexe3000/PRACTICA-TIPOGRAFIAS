@@ -1,0 +1,24 @@
+Installing Webfonts
+
+1. Upload the files from this zip to your domain.
+2. Add this code to your website:
+
+@font-face {
+    font-family: 'MTF-Cool-Kid-Fat';
+    src:url('MTF-Cool-Kid-Fat.ttf.woff') format('woff'),
+        url('MTF-Cool-Kid-Fat.ttf.svg#MTF-Cool-Kid-Fat') format('svg'),
+        url('MTF-Cool-Kid-Fat.ttf.eot'),
+        url('MTF-Cool-Kid-Fat.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+3. Integrate the fonts into your CSS:
+Add the font name to your CSS styles. For example:
+
+h1 { 
+   font-family: 'MTF-Cool-Kid-Fat';
+}  
+
+Troubleshooting Webfonts
+1. You may be using the fonts on different domain or subdomain.
+2. Check if you have link the fonts properly in the CSS.
